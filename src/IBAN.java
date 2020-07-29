@@ -3,14 +3,14 @@
 * Date - 16/10/2018
 * Environment - IntelliJ on MacOS X
 * Description - Generates Finnish AccountNumber and an valid corresponding IBAN number
-* Package - com.sogeti.rsarpal.finIBAN
+* Package - com.rsarpal.finIBAN
 * Constructor - IBAN(String country) - parameters two letter country prefix . Supports only 'FI'
 * Methods - String finAccGenerator() - returns a valid finnish bank account number
 *         - String ibanGenerator() - returns a valid Finnish IBAN bank account number
 
  * */
 
-package com.sogeti.rsarpal.finIBAN;
+package com.rsarpal.IBAN;
 
 import java.math.BigInteger;
 
@@ -124,13 +124,14 @@ public class IBAN {
     }
 
 
-  /*  public static void main(String[] args){
+    public static void main(String[] args) {
 
-        IBAN newIban= new IBAN("FI");
+        IBAN newIban = new IBAN("FI");
 
 
-        for (int i=0; i<100; i++)
+        for (int i = 0; i < 100; i++)
             System.out.println(newIban.ibanGenerator(newIban.finAccGenerator()));
+    }
 
-    }*/
+
 }
