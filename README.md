@@ -1,6 +1,6 @@
 **Description**
 
-The code generates valid Finnish IBANs
+The code generates valid Finnish IBANs (Banking Account numbers)
 
 
 ---
